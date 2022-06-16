@@ -24,8 +24,15 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	line-height: 1;
+	line-height: 1;	
+	-ms-overflow-style: none;  /* IE and Edge */
+  	scrollbar-width: none;  /* Firefox */
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 
 ol, ul {
 	list-style: none;
@@ -125,7 +132,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 360px) {
+		@media screen and (max-width : 188px ){
 
 			html {
 				font-size: 10pt;
