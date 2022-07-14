@@ -1661,6 +1661,20 @@ input, select, textarea {
 	left: 5%;
 }
 
+.pubtitle{
+	position: relative;
+	width: 90%;
+	margin: 0 0 0 0;
+	top: 0.75rem;
+	left: 5%;
+}
+.pubdate{
+	position: relative;
+	margin: -1rem 0 1rem 0;
+	width: 90%;
+	left: 5%;
+}
+
 .collapsible {
 	display: block;
 	height: min-content;
