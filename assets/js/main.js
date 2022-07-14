@@ -289,7 +289,7 @@
 					$('<div class="close"><div class="leftright"></div><div class="rightleft"></div></div>')
 						.appendTo($this)
 						.on('click', function() {
-							location.hash = '';
+							$main._hide(true);
 						});
 
 				// Prevent clicks from inside article from bubbling.
