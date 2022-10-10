@@ -94,15 +94,15 @@ function generatename() {
 	var rand = Math.random();
 	
 	var i = 0;
-	var k = Math.floor(Math.random() * nl/2);
+	var k = Math.round(Math.random() * nl/2);
 	
 	if (rand < 1/6) {
 		
-		i = k + Math.floor(Math.random() * (nl - k));
+		i = k + Math.round(Math.random() * (nl - k));
 		
 	} else {
 		
-		i = Math.floor(Math.random() * k);
+		i = Math.round(Math.random() * k);
 		
 	}
 	
