@@ -1,25 +1,67 @@
 /* CSS Document */
 
+
+
 .individual{
-	display: block;
+	
 	height: min-content;
 	min-height: min-content;
 	overflow: auto;
 	border-radius: 4px;
 	transition: all .325s ease-in;
 }
-.individual:hover {
-	background-color: rgba(255, 255, 255, 0.075);
+
+
+.del {
+	float:right;
+	cursor: pointer;
+	border-radius: 100%;
+	box-shadow: inset 0 0 0 1px #ffffff;
+	display: inline-block;
+	height: 1.8rem;
+	line-height: 1.8rem;	
+	width: 1.8rem;
+	text-align: center;
+	font-size: 12pt;
+	font-weight: bold;
+	transition: all .25s ease-in;
 }
+
+
+		@media screen and (max-width: 1680px) {
+
+			.del {
+				font-size: 10pt;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.del {
+				font-size: 9pt;
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			.del {
+				font-size: 8pt;
+			}
+
+		}
+
+.del:hover {
+					background-color: rgba(255, 255, 255, 0.075);
+				}
+
+.del:active {
+					background-color: rgba(255, 255, 255, 0.175);
+				}
 
 .nm{
+	margin: 0 0 0 0;
 	position: relative;
-	width: 90%;
-	top: 0.75rem;
-	left: 5%;
-}
-
-.nmx {
-	top: -2.9rem;
-	left: 1%;
+	width: 50%;
 }
