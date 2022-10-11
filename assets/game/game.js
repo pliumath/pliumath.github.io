@@ -94,15 +94,15 @@ function generatename() {
 	var rand = Math.random();
 	
 	var i = 0;
-	var k = Math.round(Math.random() * nl/2);
+	var k = Math.floor(Math.random() * nl/2);
 	
 	if (rand < 1/6) {
 		
-		i = k + Math.round(Math.random() * (nl - k));
+		i = k + Math.floor(Math.random() * (nl - k));
 		
 	} else {
 		
-		i = Math.round(Math.random() * k);
+		i = Math.floor(Math.random() * k);
 		
 	}
 	
@@ -114,13 +114,13 @@ function generatename() {
 	
 	if (rand2 < 1/3) {
 		
-		var j = Math.round(Math.random() * nf);
+		var j = Math.floor(Math.random() * nf);
 		fn = fns[j];
 		
 	} else {
 		
-		var j1 = Math.round(Math.random() * nm);
-		var j2 = Math.round(Math.random() * nf);
+		var j1 = Math.floor(Math.random() * nm);
+		var j2 = Math.floor(Math.random() * nf);
 		var fn1 = mns[j1];
 		var fn2 = fns[j2];
 		fn = fn1.concat(fn2);
