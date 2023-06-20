@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-NFE636NE44"></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
+
+  			gtag('config', 'G-NFE636NE44');
+		</script>
+		
+		<title>R-loops Visualization</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/cnmain.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+
+						<h2>Three-dimensional waterfall plots of normalized sums of cotranscriptional RNA secondary structures</h2>
+									<div class="table-wrapper", style="width: 70%;">
+										<table style="text-align: left;">
+											<thead>
+												<tr>
+													<th>Type</th>
+													<th>pFC8 plasmid</th>
+													<th>pFC53 plasmid</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>1</td>
+													<td><a href="visualization/rloops/pFC8_type1.html" target="_blank">pFC8_type1</a></td>
+													<td><a href="visualization/rloops/pFC53_type1.html" target="_blank">pFC53_type1</a></td>
+
+												</tr>
+												<tr>
+													<td>2</td>
+													<td><a href="visualization/rloops/pFC8_type2.html" target="_blank">pFC8_type2</a></td>
+													<td><a href="visualization/rloops/pFC53_type2.html" target="_blank">pFC53_type2</a></td>
+												</tr>
+												<tr>
+													<td>3</td>
+													<td><a href="visualization/rloops/pFC8_type3.html" target="_blank">pFC8_type3</a></td>
+													<td><a href="visualization/rloops/pFC53_type3.html" target="_blank">pFC53_type3</a></td>
+												</tr>
+												<tr>
+													<td>4</td>
+													<td><a href="visualization/rloops/pFC8_type4.html" target="_blank">pFC8_type4</a></td>
+													<td><a href="visualization/rloops/pFC53_type4.html" target="_blank">pFC53_type4</a></td>
+												</tr>
+												<tr>
+													<td>5</td>
+													<td><a href="visualization/rloops/pFC8_type5.html" target="_blank">pFC8_type5</a></td>
+													<td><a href="visualization/rloops/pFC53_type5.html" target="_blank">pFC53_type5</a></td>
+												</tr>
+												<tr>
+													<td>6</td>
+													<td><a href="visualization/rloops/pFC8_type6.html" target="_blank">pFC8_type6</a></td>
+													<td><a href="visualization/rloops/pFC53_type6.html" target="_blank">pFC53_type6</a></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+                        
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Pengyu Liu</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				var coll = document.getElementsByClassName("collapsible");
+				var i;
+
+				for (i = 0; i < coll.length; i++) {
+  					coll[i].addEventListener("click", function() {
+    				this.classList.toggle("active");
+    				var content = this.nextElementSibling;
+    				if (content.style.maxHeight){
+      					content.style.maxHeight = null;
+							} else {
+      					content.style.maxHeight = content.scrollHeight + "px";
+						content.style.transition = "all .6s ease";
+    					} 
+  					});
+					}
+			</script>
+
+	</body>
+</html>
